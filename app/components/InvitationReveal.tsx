@@ -53,10 +53,10 @@ export default function InvitationReveal({ onOpen }: InvitationRevealProps) {
                             initial={{ scale: 0.9, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
                             transition={{ duration: 0.8, delay: 0.5 }}
-                            className="mb-8"
+                            className="mb-2"
                         >
-                            <h2 className="text-yellow-500/80 text-sm md:text-base font-sans tracking-[0.3em] uppercase mb-4">Эрхэм хүндэт 'xxx' -ны хамт олон та бүхнийг хэзээ ч мартагдашгүй 'шинэ жилийн цэнгүүнд хүрэлцэн ирэхийг урьж байна.'</h2>
-                            <h1 className="text-4xl md:text-7xl font-playfair font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-yellow-100 to-yellow-200 mb-6 drop-shadow-lg">
+                            <h2 className="text-yellow-500/80 text-sm md:text-base font-sans tracking-[0.3em] uppercase mb-4 mt-12">Эрхэм хүндэт 'xxx' -ны хамт олон та бүхнийг хэзээ ч мартагдашгүй 'шинэ жилийн цэнгүүнд хүрэлцэн ирэхийг урьж байна.'</h2>
+                            <h1 className="text-4xl md:text-7xl font-playfair font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-yellow-100 to-yellow-200 mb-1 drop-shadow-lg">
                                 Welcome 2026
                             </h1>
                         </motion.div>
@@ -73,7 +73,7 @@ export default function InvitationReveal({ onOpen }: InvitationRevealProps) {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 1.5, duration: 0.8 }}
-                            className="mt-12 flex flex-col md:flex-row gap-8 justify-center items-center text-slate-300"
+                            className="mt-12 flex flex-col md:flex-row gap-2 justify-center items-center text-slate-300"
                         >
                             <div className="flex flex-col items-center gap-2 p-4 bg-slate-800/30 rounded-xl border border-white/5 backdrop-blur-sm w-48">
                                 <Calendar className="w-6 h-6 text-yellow-500 mb-2" />
@@ -85,8 +85,8 @@ export default function InvitationReveal({ onOpen }: InvitationRevealProps) {
 
                             <div className="flex flex-col items-center gap-2 p-4 bg-slate-800/30 rounded-xl border border-white/5 backdrop-blur-sm w-48">
                                 <MapPin className="w-6 h-6 text-yellow-500 mb-2" />
-                                <span className="font-sans text-sm tracking-wide">Skyline Lounge</span>
-                                <span className="font-playfair text-lg text-white">New York City</span>
+                                <span className="font-sans text-sm tracking-wide">KFC</span>
+                                <span className="font-playfair text-lg text-white">Улаанбаатар,MN</span>
                             </div>
                         </motion.div>
 
@@ -94,7 +94,7 @@ export default function InvitationReveal({ onOpen }: InvitationRevealProps) {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: 2.5, duration: 1 }}
-                            className="mt-16 text-slate-400 text-sm font-sans tracking-wide"
+                            className="mt-8 text-slate-400 text-sm font-sans tracking-wide"
                         >
                             <p>Dress Code: Black Tie & Sparkle</p>
                         </motion.div>
